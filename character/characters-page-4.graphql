@@ -1,0 +1,13 @@
+query {
+  characters(page: 4) {
+    info {
+      count
+    }
+    results {
+      id
+      name
+      status
+      image
+    }    
+  }
+}
